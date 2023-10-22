@@ -1,0 +1,26 @@
+﻿<Window x:Class="Projecto_Tono.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projecto_Tono"
+        mc:Ignorable="d"
+        Title="Dating Commun Sence App" Height="286" Width="402" ResizeMode="NoResize" Icon="/Images/Icon.ico" WindowStartupLocation="CenterScreen" FontFamily="Comic Sans MS">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Solo_Jazz_design.jpg" Stretch="None" TileMode="None"/>
+        </Grid.Background>
+
+        <GroupBox HorizontalAlignment="Center" Height="171" Header="Dating Commun Sence App" Margin="0,35,0,0" VerticalAlignment="Top" Width="309"/>
+        <Button Content="Verify" HorizontalAlignment="Center" Margin="0,121,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Click="Button_Click" FontWeight="Bold"/>
+        <TextBox x:Name="TextBox_Edad" HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" FontFamily="Comic Sans MS" InputScope="Number"/>
+        <Label Content="Enter Age" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Foreground="Black" Background="{x:Null}" FontWeight="Bold"/>
+        <Label x:Name="popo_duda" Content="Llamando a la Popo" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#00000000" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="Discord" Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="36" Click="Button_Click_1" Foreground="{x:Null}" Height="30" FontSize="0.01" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/Discord.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
